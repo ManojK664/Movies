@@ -1,0 +1,124 @@
+.add-movies-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-movies-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"], 
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+/* Fixed Background */
+body {
+  background: url("your-background-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.add-movies-container {
+  width: 90%;
+  max-width: 900px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Movies Table */
+.movies-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.movies-table th, .movies-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.movies-table th {
+  background: #343a40;
+  color: #fff;
+}
+
+.movies-table img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  background: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  color: #000;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
