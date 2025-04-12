@@ -69,9 +69,9 @@ const UserPage = () => {
                 <div className="card-body text-center">
                   <h5 className="card-title">{movie.name}</h5>
                   {!showFavourites && (
-                    <button className="btn btn-dark" onClick={() => addToFavourites(movie)}>
-                      Add to Favourites
-                    </button>
+                      <button className="btn btn-dark" onClick={() => addToFavourites(movie)}>
+                        Add To Favourites
+                      </button>
                   )}
                 </div>
               </div>

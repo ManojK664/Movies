@@ -88,7 +88,7 @@ const AddMovies = () => {
             value={movieName}
             onChange={(e) => setMovieName(e.target.value)}
             required
-            placeholder="Enter movie name"
+            placeholder="Enter Movie Name"
           />
         </div>
 
@@ -111,7 +111,7 @@ const AddMovies = () => {
             value={image}
             onChange={(e) => setImage(e.target.value)}
             required
-            placeholder="Enter movie URL"
+            placeholder="Enter Movie URL"
           />
         </div>
         <button type="submit" className="btn-primary">
