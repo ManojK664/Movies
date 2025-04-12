@@ -136,6 +136,7 @@ const AddMovies = () => {
                 <td>
                   <button className="btn-edit" onClick={() => handleEdit(movie)}>Edit</button>
                   <button className="btn-delete" onClick={() => handleDelete(movie.id)}>Delete</button>
+                  
                 </td>
               </tr>
             ))}
